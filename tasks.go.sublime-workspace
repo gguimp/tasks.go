@@ -1,0 +1,597 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"App",
+				"App\\Repositories"
+			],
+			[
+				"task",
+				"tasks"
+			],
+			[
+				"type",
+				"type=\"text"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"bordercol",
+				"border-color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"number",
+				"numbersList"
+			],
+			[
+				"meth",
+				"method_field('DELETE"
+			],
+			[
+				"Tas",
+				"TasksTableSeeder	(TasksTableSeeder.php)"
+			],
+			[
+				"createfor",
+				"createFormBuilder〔function〕"
+			],
+			[
+				"pr",
+				"products"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"set",
+				"setDescription	(Product.php)"
+			],
+			[
+				"sty",
+				"style	Tag"
+			],
+			[
+				"styleshee",
+				"stylesheet	(exemplo.html.twig)"
+			],
+			[
+				"view",
+				"viewport	(exemplo.html.twig)"
+			],
+			[
+				"tw",
+				"twig	(index.html.twig)"
+			],
+			[
+				"luc",
+				"luckyNumberList	(LuckyController.php)"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"json",
+				"json_encode〔function〕"
+			],
+			[
+				"Con",
+				"Controller〔namespace〕"
+			],
+			[
+				"initi",
+				"initialize	(AplicativosTable.php)"
+			],
+			[
+				"http",
+				"http-equiv	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 251.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"gitsttu",
+				"Git: Status"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"gule",
+				"Glue - Launch"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"symfon",
+				"Snippet: Symfony2 / Controller / Action"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"auto",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"remve",
+				"Package Control: Remove Package"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"git:",
+				"Git: Log All"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 539.0,
+		"history":
+		[
+			"__name__",
+			"python",
+			"?",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/gustavo/laravel/tasks.go"
+	],
+	"file_history":
+	[
+		"/home/gustavo/laravel/task-list/app/Http/Controllers/TaskController.php",
+		"/home/gustavo/laravel/task-list/app/Http/routes.php",
+		"/home/gustavo/laravel/task-list/app/Repositories/TaskRepository.php",
+		"/home/gustavo/laravel/task-list/resources/views/layouts/app.blade.php",
+		"/home/gustavo/laravel/task-list/app/User.php",
+		"/home/gustavo/laravel/task-list/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/home/gustavo/laravel/task-list/app/Http/Controllers/Auth/AuthController.php",
+		"/home/gustavo/laravel/task-list/resources/views/tasks/index.blade.php",
+		"/home/gustavo/laravel/task-list/resources/views/common/errors.blade.php",
+		"/home/gustavo/laravel/task-list/database/migrations/2016_02_23_005853_create_tasks_table.php",
+		"/home/gustavo/laravel/task-list/app/Task.php",
+		"/home/gustavo/laravel/task-list/app/Http/Kernel.php",
+		"/home/gustavo/laravel/task-list/Homestead.yaml",
+		"/home/gustavo/laravel/task-list/Vagrantfile",
+		"/home/gustavo/html5/caixa/bower.json",
+		"/home/gustavo/html5/caixa/.gitignore",
+		"/home/gustavo/html5/caixa/.bowerrc",
+		"/home/gustavo/html5/caixa/assets/css/caixa-html5.css",
+		"/home/gustavo/html5/caixa/index.html",
+		"/home/gustavo/symfony/tuto03/app/AppKernel.php",
+		"/home/gustavo/symfony/tuto03/app/config/config.yml",
+		"/home/gustavo/symfony/tuto03/app/config/security.yml",
+		"/home/gustavo/symfony/tuto03/app/config/parameters.yml",
+		"/home/gustavo/symfony/tuto03/web/config.php",
+		"/home/gustavo/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/gustavo/.config/sublime-text-3/Packages/Phpcs/phpcs.sublime-settings",
+		"/home/gustavo/.config/sublime-text-3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/home/gustavo/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/gustavo/symfony/tuto03/tuto03.sublime-project",
+		"/home/gustavo/symfony/tuto02/composer.json",
+		"/home/gustavo/laravel/quickstart/database/migrations/2015_12_05_174431_create_tasks_table.php",
+		"/home/gustavo/laravel/quickstart/.env",
+		"/home/gustavo/laravel/quickstart/app/Http/routes.php",
+		"/home/gustavo/laravel/quickstart/resources/views/tasks.blade.php",
+		"/home/gustavo/laravel/quickstart/resources/views/common/errors.blade.php",
+		"/home/gustavo/laravel/quickstart/resources/views/layouts/app.blade.php",
+		"/home/gustavo/laravel/laravel-tasks/Homestead.yaml",
+		"/home/gustavo/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/gustavo/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/home/gustavo/laravel/l5todo/app/Jobs/Job.php",
+		"/home/gustavo/laravel/l5todo/database/migrations/seeds/ProjectsTableSeeder.php",
+		"/home/gustavo/laravel/l5todo/database/migrations/seeds/TasksTableSeeder.php",
+		"/home/gustavo/laravel/l5todo/database/seeds/TasksTableSeeder.php",
+		"/home/gustavo/laravel/l5todo/database/seeds/ProjectsTableSeeder.php",
+		"/home/gustavo/symfony/tuto01/app/Resources/views/default/exemplo.html.twig",
+		"/home/gustavo/Área de Trabalho/protocolo tim.txt",
+		"/home/gustavo/symfony/tuto01/app/Resources/views/default/index.html.twig",
+		"/home/gustavo/symfony/tuto01/src/AppBundle/Controller/DefaultController.php",
+		"/home/gustavo/symfony/tuto01/.bowerrc",
+		"/home/gustavo/symfony/tuto01/src/AppBundle/Entity/Product.php",
+		"/home/gustavo/symfony/tuto01/app/config/parameters.yml",
+		"/home/gustavo/symfony/tuto01/app/Resources/views/product/new.html.twig",
+		"/home/gustavo/symfony/tuto01/src/AppBundle/Controller/ProductController.php",
+		"/home/gustavo/symfony/tuto01/app/Resources/views/default/app.html.twig",
+		"/home/gustavo/symfony/tuto01/app/Resources/views/base.html.twig",
+		"/home/gustavo/symfony/tuto01/src/AppBundle/Controller/Product.php",
+		"/home/gustavo/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/home/gustavo/symfony/tuto01/src/AppBundle/Controller/LuckyController.php",
+		"/home/gustavo/symfony/tuto01/web/config.php",
+		"/home/gustavo/symfony/tuto01/app/Resources/views/lucky/number.html.twig",
+		"/home/gustavo/symfony/tuto01/app/config/routing.yml",
+		"/home/gustavo/symfony/tuto01/bower.json",
+		"/home/gustavo/symfony/tuto01/.gitignore",
+		"/home/gustavo/Downloads/bootstrap-3.3.5/Gruntfile.js",
+		"/home/gustavo/Downloads/bootstrap-3.3.5/less/mixins/labels.less",
+		"/home/gustavo/Downloads/bootstrap-3.3.5/less/mixins/alerts.less",
+		"/home/gustavo/exata/exata-connect/composer.json",
+		"/home/gustavo/exata/exata-connect/bower.json",
+		"/home/gustavo/exata/exata-connect/config/app.php",
+		"/home/gustavo/exata/exata-connect/src/Template/Layout/modelo.html",
+		"/home/gustavo/exata/exata-connect/src/Model/Table/AplicativosTable.php",
+		"/home/gustavo/exata/exata-connect/webroot/components/bootstrap/dist/css/bootstrap.css",
+		"/home/gustavo/exata/exata-connect/webroot/css/dashboard.css",
+		"/home/gustavo/exata/exata-connect/config/routes.php",
+		"/home/gustavo/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/gustavo/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/home/gustavo/exata/exata-connect/webroot/components/font-awesome/bower.json",
+		"/home/gustavo/exata/exata-connect/webroot/components/startbootstrap-sb-admin-2/dist/css/sb-admin-2.css",
+		"/home/gustavo/exata/exata-connect/webroot/components/font-awesome/css/font-awesome.css",
+		"/home/gustavo/exata/exata-connect/exata-connect.sublime-project"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"validate",
+			"ctrl+alt+ri",
+			"ctrl+alt+le",
+			"user pro"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"html"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "tasks.go.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index.",
+				"resources/views/tasks/index.blade.php"
+			],
+			[
+				"index",
+				"resources/views/tasks/index.blade.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"taskcontr",
+				"app/Http/Controllers/TaskController.php"
+			],
+			[
+				"taskconotr",
+				"app/Http/Controllers/TaskController.php"
+			],
+			[
+				"error",
+				"resources/views/common/errors.blade.php"
+			],
+			[
+				"takscontr",
+				"app/Http/Controllers/TaskController.php"
+			],
+			[
+				"taksconr",
+				"app/Http/Controllers/TaskController.php"
+			],
+			[
+				"app.bl",
+				"resources/views/layouts/app.blade.php"
+			],
+			[
+				"task",
+				"app/Task.php"
+			],
+			[
+				"user.",
+				"app/User.php"
+			],
+			[
+				"caix",
+				"assets/css/caixa-html5.css"
+			],
+			[
+				"secur",
+				"app/config/security.yml"
+			],
+			[
+				"config",
+				"web/config.php"
+			],
+			[
+				"param",
+				"app/config/parameters.yml"
+			],
+			[
+				"app/config",
+				"app/config/config.yml"
+			],
+			[
+				"app/ke",
+				"app/AppKernel.php"
+			],
+			[
+				"",
+				"app/Resources/views/lucky/number.html.twig"
+			],
+			[
+				"rou",
+				"app/Http/routes.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"taskcont",
+				"app/Http/Controllers/TasksController.php"
+			],
+			[
+				"tasksconr",
+				"app/Http/Controllers/TasksController.php"
+			],
+			[
+				"proje",
+				"app/Http/Controllers/ProjectsController.php"
+			],
+			[
+				"projectscont",
+				"app/Http/Controllers/ProjectsController.php"
+			],
+			[
+				"routes.ph",
+				"app/Http/routes.php"
+			],
+			[
+				"routes",
+				"app/Providers/RouteServiceProvider.php"
+			],
+			[
+				"aplic",
+				"src/Model/Table/AplicativosTable.php"
+			],
+			[
+				"aplicativo",
+				"src/Controller/AplicativosController.php"
+			],
+			[
+				"aplicati",
+				"src/Controller/AplicativosController.php"
+			],
+			[
+				"inde",
+				"src/Template/Aplicativos/index.ctp"
+			],
+			[
+				"moel",
+				"src/Template/Layout/modelo.html"
+			],
+			[
+				"aplicativos/in",
+				"src/Template/Aplicativos/index.ctp"
+			],
+			[
+				"src/template/",
+				"src/Template/Layout/default.ctp"
+			],
+			[
+				"bootstrap.css",
+				"webroot/components/bootstrap/dist/css/bootstrap.css"
+			],
+			[
+				"modelo.h",
+				"src/Template/Layout/modelo.html"
+			],
+			[
+				"default",
+				"src/Template/Layout/default.ctp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 333.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
