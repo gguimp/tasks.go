@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ADm",
+				"AdminLTE"
+			],
+			[
+				"Admin",
+				"AdminLTE"
+			],
+			[
 				"App",
 				"App\\Repositories"
 			],
@@ -131,23 +139,39 @@
 			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 960,
+				"buffer_size": 956,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/tasks/index.blade.php",
+			"file": "resources/views/app/footer.blade.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 258,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/components/AdminLTE/starter.html",
+			"file": "resources/views/app/header.blade.php",
 			"settings":
 			{
-				"buffer_size": 15180,
+				"buffer_size": 6474,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/app/sidebar.blade.php",
+			"settings":
+			{
+				"buffer_size": 1764,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/app/control-sidebar.blade.php",
+			"settings":
+			{
+				"buffer_size": 2508,
 				"line_ending": "Unix"
 			}
 		},
@@ -156,6 +180,14 @@
 			"settings":
 			{
 				"buffer_size": 37,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 3154,
 				"line_ending": "Unix"
 			}
 		}
@@ -167,16 +199,16 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 251.0,
-		"last_filter": "",
+		"height": 319.0,
+		"last_filter": "instal",
 		"selected_items":
 		[
 			[
-				"install",
+				"instal",
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -293,23 +325,20 @@
 	"expanded_folders":
 	[
 		"/home/gustavo/laravel/tasks.go",
-		"/home/gustavo/laravel/tasks.go/public",
 		"/home/gustavo/laravel/tasks.go/public/components",
 		"/home/gustavo/laravel/tasks.go/public/components/AdminLTE",
-		"/home/gustavo/laravel/tasks.go/public/components/AdminLTE/bootstrap",
 		"/home/gustavo/laravel/tasks.go/public/components/AdminLTE/build",
-		"/home/gustavo/laravel/tasks.go/public/components/AdminLTE/dist/css",
-		"/home/gustavo/laravel/tasks.go/public/components/AdminLTE/dist/css/skins",
-		"/home/gustavo/laravel/tasks.go/public/components/AdminLTE/pages/charts",
-		"/home/gustavo/laravel/tasks.go/public/components/AdminLTE/pages/examples",
+		"/home/gustavo/laravel/tasks.go/public/components/AdminLTE/dist/img",
 		"/home/gustavo/laravel/tasks.go/resources",
 		"/home/gustavo/laravel/tasks.go/resources/views",
-		"/home/gustavo/laravel/tasks.go/resources/views/tasks",
-		"/home/gustavo/laravel/tasks.go/vendor",
-		"/home/gustavo/laravel/tasks.go/vendor/barryvdh/laravel-debugbar"
+		"/home/gustavo/laravel/tasks.go/resources/views/app",
+		"/home/gustavo/laravel/tasks.go/resources/views/errors",
+		"/home/gustavo/laravel/tasks.go/resources/views/tasks"
 	],
 	"file_history":
 	[
+		"/home/gustavo/laravel/tasks.go/public/components/AdminLTE/starter.html",
+		"/home/gustavo/laravel/tasks.go/resources/views/tasks/index.blade.php",
 		"/home/gustavo/laravel/task-list/app/Http/Controllers/TaskController.php",
 		"/home/gustavo/laravel/task-list/app/Http/routes.php",
 		"/home/gustavo/laravel/task-list/app/Repositories/TaskRepository.php",
@@ -393,7 +422,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -407,6 +436,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"user im",
 			"validate",
 			"ctrl+alt+ri",
 			"ctrl+alt+le",
@@ -429,7 +459,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -457,7 +487,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -488,7 +518,7 @@
 						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -516,7 +546,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -525,15 +555,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 960,
+						"buffer_size": 956,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								955,
-								955
+								938,
+								938
 							]
 						],
 						"settings":
@@ -542,19 +572,19 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "resources/views/tasks/index.blade.php",
+					"file": "resources/views/app/footer.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 258,
 						"regions":
 						{
 						},
@@ -567,8 +597,105 @@
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"open_with_edit": true,
 							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/app/header.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6474,
+								6474
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2154.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/views/app/sidebar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1764,
+								1764
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resources/views/app/control-sidebar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -578,37 +705,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "public/components/AdminLTE/starter.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 15180,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8606,
-								8606
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 585.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": ".bowerrc",
 					"semi_transient": false,
 					"settings":
@@ -633,7 +730,45 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "resources/views/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								566,
+								566
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -656,6 +791,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -666,6 +807,7 @@
 		"rows":
 		[
 			0.0,
+			0.402777777778,
 			1.0
 		]
 	},
@@ -868,7 +1010,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -876,7 +1018,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 333.0,
+	"side_bar_width": 243.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
