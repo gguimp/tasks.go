@@ -7,3 +7,5 @@ Homestead.json
 /.vagrant
 /storage/debugbar
 /vendor/bower/components
+/public/assets
+/public/css
