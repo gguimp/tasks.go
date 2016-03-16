@@ -14,11 +14,11 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "public/components",
+    "vendor/bower/components",
     "test",
     "tests"
   ],
   "dependencies": {
-    "AdminLTE": "admin-lte#~2.3.2"
+    "AdminLTE": "admin-lte#^2.3.2"
   }
 }
