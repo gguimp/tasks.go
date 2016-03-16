@@ -19,7 +19,7 @@ elixir(function(mix) {
 var adminlte = "vendor/bower/components/AdminLTE/";
 var public = "public/assets/";
 
-gulp.tasks("copyfiles", function() {
+gulp.task("copyfiles", function() {
 
 	// BOOTSTRAP
 	gulp.src(adminlte + "bootstrap/css/bootstrap.min.css")
