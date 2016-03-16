@@ -45,6 +45,6 @@ gulp.task("copyfiles", function() {
 		.pipe(gulp.dest(public + "js/"));
 
 	// JQuery
-	gulp.src(adminlte + "plugins/jQuery/JQuery-2.1.4.min.js")
+	gulp.src(adminlte + "plugins/jQuery/jQuery-2.1.4.min.js")
 		.pipe(gulp.dest(public + "js/"));
 });
