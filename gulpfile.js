@@ -1,3 +1,5 @@
+process.env.DISABLE_NOTIFIER = true;
+
 var gulp = require('gulp');
 var elixir = require('laravel-elixir');
 
@@ -16,7 +18,6 @@ elixir(function(mix) {
     mix.sass('app.scss');
 });
 
-process.env.DISABLE_NOTIFIER = true;
 
 var adminlte = "vendor/bower/components/AdminLTE/";
 var public = "public/assets/";
