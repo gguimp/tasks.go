@@ -16,6 +16,8 @@ elixir(function(mix) {
     mix.sass('app.scss');
 });
 
+process.env.DISABLE_NOTIFIER = true;
+
 var adminlte = "vendor/bower/components/AdminLTE/";
 var public = "public/assets/";
 
