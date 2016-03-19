@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"asset",
+				"assets"
+			],
+			[
 				"ADm",
 				"AdminLTE"
 			],
@@ -115,7 +119,15 @@
 			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 1410,
+				"buffer_size": 1437,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 288,
 				"line_ending": "Unix"
 			}
 		},
@@ -123,7 +135,23 @@
 			"file": "resources/views/index.blade.php",
 			"settings":
 			{
-				"buffer_size": 3119,
+				"buffer_size": 3113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/app/header.blade.php",
+			"settings":
+			{
+				"buffer_size": 6420,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/app/sidebar.blade.php",
+			"settings":
+			{
+				"buffer_size": 1746,
 				"line_ending": "Unix"
 			}
 		},
@@ -148,7 +176,7 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 125,
+				"buffer_size": 152,
 				"line_ending": "Unix"
 			}
 		},
@@ -295,20 +323,15 @@
 	[
 		"/home/gustavo/laravel/tasks.go",
 		"/home/gustavo/laravel/tasks.go/public/assets",
-		"/home/gustavo/laravel/tasks.go/public/assets/img",
-		"/home/gustavo/laravel/tasks.go/resources/assets",
+		"/home/gustavo/laravel/tasks.go/resources",
+		"/home/gustavo/laravel/tasks.go/resources/views",
 		"/home/gustavo/laravel/tasks.go/resources/views/app",
-		"/home/gustavo/laravel/tasks.go/resources/views/errors",
-		"/home/gustavo/laravel/tasks.go/resources/views/tasks",
-		"/home/gustavo/laravel/tasks.go/vendor",
 		"/home/gustavo/laravel/tasks.go/vendor/bower",
 		"/home/gustavo/laravel/tasks.go/vendor/bower/components",
 		"/home/gustavo/laravel/tasks.go/vendor/bower/components/AdminLTE",
-		"/home/gustavo/laravel/tasks.go/vendor/bower/components/AdminLTE/bootstrap",
 		"/home/gustavo/laravel/tasks.go/vendor/bower/components/AdminLTE/bootstrap/css",
 		"/home/gustavo/laravel/tasks.go/vendor/bower/components/AdminLTE/bootstrap/fonts",
 		"/home/gustavo/laravel/tasks.go/vendor/bower/components/AdminLTE/bootstrap/js",
-		"/home/gustavo/laravel/tasks.go/vendor/bower/components/AdminLTE/dist/img",
 		"/home/gustavo/laravel/tasks.go/vendor/bower/components/AdminLTE/plugins",
 		"/home/gustavo/laravel/tasks.go/vendor/bower/components/AdminLTE/plugins/jQuery"
 	],
@@ -425,6 +448,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"user",
 			"res",
 			"user im",
 			"validate",
@@ -458,15 +482,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1410,
+						"buffer_size": 1437,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								666,
-								666
+								38,
+								38
 							]
 						],
 						"settings":
@@ -475,7 +499,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -483,19 +507,49 @@
 				},
 				{
 					"buffer": 1,
-					"file": "resources/views/index.blade.php",
-					"semi_transient": false,
+					"file": "package.json",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3119,
+						"buffer_size": 288,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2867,
-								2867
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3023,
+								3023
 							]
 						],
 						"settings":
@@ -506,20 +560,82 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 855.0,
+						"translation.y": 1146.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/app/header.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1412,
+								1412
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 366.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/app/sidebar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 5,
 					"file": "Procfile",
 					"semi_transient": false,
 					"settings":
@@ -544,16 +660,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "resources/views/index.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3119,
+						"buffer_size": 3113,
 						"regions":
 						{
 						},
@@ -575,11 +691,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"semi_transient": false,
 					"settings":
 					{
@@ -604,24 +720,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 125,
+						"buffer_size": 152,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								125,
-								125
+								152,
+								152
 							]
 						],
 						"settings":
@@ -632,11 +748,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "bower.json",
 					"semi_transient": false,
 					"settings":
@@ -663,7 +779,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
