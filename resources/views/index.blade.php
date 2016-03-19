@@ -17,12 +17,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ asset("/assets/css/AdminLTE.min.css") }}">
+  <link rel="stylesheet" href="{{ asset("/css/AdminLTE.min.css") }}">
   <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
         page. However, you can choose any other skin. Make sure you
         apply the skin class to the body tag so the changes take effect.
   -->
-  <link rel="stylesheet" href="{{ asset("/assets/css/skin-blue.min.css") }}">
+  <link rel="stylesheet" href="{{ asset("/css/skin-blue.min.css") }}">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,11 +75,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- REQUIRED JS SCRIPTS -->
 
 <!-- jQuery 2.1.4 -->
-<script src="{{ asset("/assets/js/jQuery-2.1.4.min.js") }}"></script>
+<script src="{{ asset("/js/jQuery-2.1.4.min.js") }}"></script>
 <!-- Bootstrap 3.3.5 -->
-<script src="{{ asset("/assets/js/bootstrap.min.js") }}"></script>
+<script src="{{ asset("/js/bootstrap.min.js") }}"></script>
 <!-- AdminLTE App -->
-<script src="{{ asset("/assets/js/app.min.js") }}"></script>
+<script src="{{ asset("/js/app.min.js") }}"></script>
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the

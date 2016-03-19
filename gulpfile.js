@@ -20,7 +20,7 @@ elixir(function(mix) {
 
 
 var adminlte = "vendor/bower/components/AdminLTE/";
-var public = "public/assets/";
+var public = "public/";
 
 gulp.task("copyfiles", function() {
 
