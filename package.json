@@ -9,8 +9,5 @@
     "gulp": "^3.8.8",
     "gulp-notify": "^2.2.0",
     "laravel-elixir": "^4.0.0"
-  },
-  "scripts": {
-    "postinstall": "bower install && gulp copyfiles"
   }
 }
