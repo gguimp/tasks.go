@@ -18,36 +18,31 @@ elixir(function(mix) {
     mix.sass('app.scss');
 });
 
+gulp.task("assets.copy", function() {
 
-var adminlte = "vendor/bower/components/AdminLTE/";
-var public = "public/";
+	gulp.src("vendor/bower/jquery/dist/jquery.js")
+		.pipe(gulp.dest("resources/assets/js"));
 
-gulp.task("copyfiles", function() {
+	gulp.src("vendor/bower/bootstrap/less/**")
+		.pipe(gulp.dest("resources/assets/less/bootstrap"));
 
-	// BOOTSTRAP
-	gulp.src(adminlte + "bootstrap/css/bootstrap.min.css")
-		.pipe(gulp.dest(public + "css/"));
+	gulp.src("vendor/bower/bootstrap/dist/js/bootstrap.js")
+		.pipe(gulp.dest("resources/assets/js"));
 
-	gulp.src(adminlte + "bootstrap/fonts/**")
-		.pipe(gulp.dest(public + "fonts/"));
-
-	gulp.src(adminlte + "bootstrap/js/bootstrap.min.js")
-		.pipe(gulp.dest(public + "js/"));
-
-	// AdminLTe
-	gulp.src(adminlte + "dist/css/AdminLTE.min.css")
-		.pipe(gulp.dest(public + "css/"));
-
-	gulp.src(adminlte + "dist/css/skins/skin-blue.min.css")
-		.pipe(gulp.dest(public + "css/"));
-
-	gulp.src(adminlte + "dist/img/**")
-		.pipe(gulp.dest(public + "img/"));
-
-	gulp.src(adminlte + "dist/js/app.min.js")
-		.pipe(gulp.dest(public + "js/"));
-
-	// JQuery
-	gulp.src(adminlte + "plugins/jQuery/jQuery-2.1.4.min.js")
-		.pipe(gulp.dest(public + "js/"));
+	gulp.src("vendor/bower/bootstrap/dist/fonts/**")
+		.pipe(gulp.dest("public/fonts"));
 });
+
+elixir(function(mix) {
+	mix.scripts([
+		'js/jquery.js',
+		'js/bootstrap.js'
+		],
+		'public/js/tasks.go.js',
+		'resources/assets'
+	);
+
+    mix.less('tasks.go.less');
+});
+
+gulp.task('default', ['assets.copy', 'less', 'scripts']);
