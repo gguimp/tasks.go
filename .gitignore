@@ -6,8 +6,7 @@ Homestead.json
 .env
 /.vagrant
 /storage/debugbar
-/vendor/bower/components
-/public/assets
+/vendor/bower
 /public/css
 /public/fonts
 /public/img
