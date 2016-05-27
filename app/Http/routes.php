@@ -27,7 +27,11 @@
 */
 
 Route::group(['middleware' => ['web']], function () {
-	Route::get('/', function() {
-		return view('app.index');
-	});
+	Route::auth(); 
+
+	Route::get('/', 'HomeController@index');
+	Route::get('/tarefas', 'TarefaController@index');
+	Route::get('/tarefas/novo', 'TarefaController@novo');
+	Route::post('/tarefa', 'TarefaController@salvar');
+	Route::delete('/tarefa/{tarefa}', 'TarefaController@excluir');
 });
