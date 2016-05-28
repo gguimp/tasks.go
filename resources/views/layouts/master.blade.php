@@ -9,19 +9,17 @@
         <meta name="author" content="">
         <link rel="icon" href="../../favicon.ico">
 
-        <title>Tasks.go</title>
+        <title>{{ $titulo or 'Tasks.go' }}</title>
 
         <link rel="stylesheet" href="{{ asset("/css/tasks.go.css") }}">
     </head>
 
     <body>
-        @include('app.navbar')
+        @yield('navbar')
 
         <div class="container">
-
             @yield('content')
-
-        </div> <!-- /container -->
+        </div>
 
         <script src="{{ asset('/js/tasks.go.js') }}"></script>
     </body>
