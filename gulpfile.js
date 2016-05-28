@@ -20,13 +20,13 @@ elixir(function(mix) {
 
 gulp.task("assets.copy", function() {
 
-	gulp.src("vendor/bower/jquery/dist/jquery.js")
+	gulp.src("vendor/bower/jquery/dist/jquery.min.js")
 		.pipe(gulp.dest("resources/assets/js"));
 
 	gulp.src("vendor/bower/bootstrap/less/**")
 		.pipe(gulp.dest("resources/assets/less/bootstrap"));
 
-	gulp.src("vendor/bower/bootstrap/dist/js/bootstrap.js")
+	gulp.src("vendor/bower/bootstrap/dist/js/bootstrap.min.js")
 		.pipe(gulp.dest("resources/assets/js"));
 
 	gulp.src("vendor/bower/bootstrap/dist/fonts/**")
@@ -35,11 +35,10 @@ gulp.task("assets.copy", function() {
 
 elixir(function(mix) {
 	mix.scripts([
-		'js/jquery.js',
-		'js/bootstrap.js'
+		'jquery.min.js',
+		'bootstrap.min.js'
 		],
-		'public/js/tasks.go.js',
-		'resources/assets'
+		'public/js/tasks.go.js'
 	);
 
     mix.less('tasks.go.less');
