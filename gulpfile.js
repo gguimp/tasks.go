@@ -18,22 +18,15 @@ elixir(function(mix) {
     mix.sass('app.scss');
 });
 
-gulp.task("assets.copy", function() {
-
-	gulp.src("vendor/bower/jquery/dist/jquery.min.js")
-		.pipe(gulp.dest("resources/assets/js"));
-
-	gulp.src("vendor/bower/bootstrap/less/**")
-		.pipe(gulp.dest("resources/assets/less/bootstrap"));
-
-	gulp.src("vendor/bower/bootstrap/dist/js/bootstrap.min.js")
-		.pipe(gulp.dest("resources/assets/js"));
-
-	gulp.src("vendor/bower/bootstrap/dist/fonts/**")
-		.pipe(gulp.dest("public/fonts"));
-});
-
 elixir(function(mix) {
+	// JQuery
+	mix.copy("vendor/bower/jquery/dist/jquery.min.js", "resources/assets/js");
+
+	// Bootstrap
+	mix.copy("vendor/bower/bootstrap/less/**", "resources/assets/less/bootstrap");
+	mix.copy("vendor/bower/bootstrap/dist/js/bootstrap.min.js", "resources/assets/js");
+	mix.copy("vendor/bower/bootstrap/dist/fonts/**", "public/fonts");
+
 	mix.scripts([
 		'jquery.min.js',
 		'bootstrap.min.js'
@@ -43,5 +36,3 @@ elixir(function(mix) {
 
     mix.less('tasks.go.less');
 });
-
-gulp.task('default', ['assets.copy', 'less', 'scripts']);
