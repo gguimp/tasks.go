@@ -12,4 +12,9 @@ class TarefaController extends Controller
     {
     	return view('tarefas.index');
     }
+
+    public function novo(Request $request)
+    {
+    	return view('tarefas.novo');
+    }
 }
