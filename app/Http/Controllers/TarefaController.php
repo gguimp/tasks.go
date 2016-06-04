@@ -10,7 +10,10 @@ class TarefaController extends Controller
 {
     public function index(Request $request)
     {
-    	return view('tarefas.index');
+    	$tarefas = Tarefa::all();
+
+    	return view('tarefas.index', [
+    		'tarefas' => $tarefas]);
     }
 
     public function novo(Request $request)
