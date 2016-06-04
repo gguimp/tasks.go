@@ -14,8 +14,8 @@
 
             <!-- Descrição da Tarefa -->
             <div class="form-group">
-                <label for="tarefa-descricao">Descrição...</label>
-                <textarea name="descricao" id="tarefa-descricao" rows="3" class="form-control">
+                <label for="tarefa-descricao">Detalhes...</label>
+                <textarea name="detalhes" id="tarefa-detalhes" rows="3" class="form-control">
                 </textarea>
             </div>
 
