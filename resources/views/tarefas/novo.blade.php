@@ -19,6 +19,16 @@
                 </textarea>
             </div>
 
+            <!-- Projeto relacionado -->
+            <div class="form-group">
+                <label for="tarefa-projeto">Projeto</label>
+                <select name="projeto_id" id="tarefa-projeto" class="form-control">
+                    <option value="1">Projeto 01</option>
+                    <option value="2">Projeto 02</option>
+                    <option value="3">Projeto 03</option>
+                </select>
+            </div>
+
             <!-- Botão salvar. -->
             <button type="submit" class="btn btn-primary">
                 <i class="fa fa-plus"></i>Salvar</button>

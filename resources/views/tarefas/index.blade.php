@@ -17,7 +17,7 @@
 			@foreach ($tarefas as $tarefa)
 				<tr>
 					<th>{{ $tarefa->id }}</th>
-					<td>{{ $tarefa->tarefa }}</td>
+					<td><a href="{{ url('tarefa/' . $tarefa->id) }}">{{ $tarefa->tarefa }}</a></td>
 					<td><a href="#">Excluir...</a></td>
 				</tr>
 			@endforeach
